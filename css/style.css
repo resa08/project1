@@ -1,0 +1,148 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Quicksand', sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding: 5px 0;
+	background-color: #EB984E;	
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px; 
+}
+.container {
+	width:  80%;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding: 15px 0;
+	color: #EB984E;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	display: inline-block; 
+	padding: 25px 20px;
+}
+header ul li a:hover {
+	background-color: #EB984E;
+	color: #fff;
+}
+.active {
+	background-color: #EB984E;
+	color: #fff;
+}
+.banner {
+	height: 60vh;
+	background-image: url('../img/banner.jpg'); 
+	background-size: cover; 
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(235, 152, 78, 0.1); 
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section {
+	padding: 50px 0;
+}
+section h3 {
+	padding: 20px 0;
+	text-align: center;
+	color:  #EB984E;
+	margin-bottom: 20px;
+}
+#Profil {
+	padding-bottom: 100px;
+}
+#Profil p {
+	color: #666;
+	word-spacing: 2px;
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 25px;
+	margin-bottom: 15px;	
+}
+#Cinta {
+	background-color: #f9f9f9;
+}
+#Cinta p {
+	color: #666;
+	word-spacing: 2px;
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+.col-3 {
+	width: 33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding: 50px 10px;
+}
+.col-3 h4 {
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ddd
+}
+footer {
+	padding: 30px 0;
+	background-color: #333;
+	padding: 50px;
+	text-align: center;
+}
+footer small {
+	color: #fff;
+}
+.label {
+	background-color:  #EB984E;
+	color: #fff;
+	font-size: 20px; 
+}
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+	header ul {
+		text-align: center;
+		float: none;
+	}
+	.col-3 {
+		width: 100%;
+	}
+}
